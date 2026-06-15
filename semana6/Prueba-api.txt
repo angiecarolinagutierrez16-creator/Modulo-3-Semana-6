@@ -1,0 +1,10 @@
+Al enviar la petición POST usando el comando curl a la ruta http://localhost:3000/registro con el JSON de prueba, el servidor respondió correctamente con el siguiente objeto JSON:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Explicación:
+La respuesta demuestra que el servidor Express tiene activo el middleware express.json(), lo que le permite interceptar, traducir y procesar la información estructurada que viaja en el cuerpo de la petición (req.body). El servidor recibió con éxito los datos de 'Maria' y los devolvió de forma estructurada como confirmación.

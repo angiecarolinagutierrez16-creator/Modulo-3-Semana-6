@@ -1,0 +1,4 @@
+{
+  "tipo": "Seguridad y Salud Vial",
+  "descripcion": "Falta de señalización y presencia de un bache profundo en la vía principal, lo que representa un riesgo alto de accidentes para los vehículos y peatones de la zona."
+}
